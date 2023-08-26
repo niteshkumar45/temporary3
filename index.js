@@ -17,4 +17,6 @@ app.get("/",async (req,res)=>{
     res.send(users[0])
 })
 
-app.listen(3200)
+app.listen(3200,()=>{
+    console.log("the server is runnig on port 3200");
+})
